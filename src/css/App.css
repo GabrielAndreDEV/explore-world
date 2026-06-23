@@ -1,0 +1,29 @@
+.header-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  z-index: 2;
+  background: rgba(70, 130, 255, 0.45);
+  backdrop-filter: blur(2px);
+}
+
+.header-menu .logo a {
+  font-family: var(--lobster);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.header-menu-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu-nav a {
+  text-decoration: none;
+  font-weight: 600;
+}

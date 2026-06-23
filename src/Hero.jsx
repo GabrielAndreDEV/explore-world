@@ -1,3 +1,4 @@
+import './css/hero.css';
 import hero from "./assets/image-1.jpg";
 
 export const Hero = () => {
@@ -25,7 +26,7 @@ export const Hero = () => {
               <input type="date" />
             </div>
 
-            <button>Buscar</button>
+            <button className="font-bold btn-orange">Buscar</button>
           </div>
         </div>
       </div>
