@@ -131,7 +131,7 @@
   width: 100%;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
     gap: 35px;
@@ -145,4 +145,4 @@
   .social-icons {
     justify-content: center;
   }
-} */
+}
