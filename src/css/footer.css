@@ -1,0 +1,148 @@
+.footer-container {
+  background-color: #3d4a54;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 20px 40px 20px;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-logo {
+  font-family: var(--lobster);
+  font-size: 2.2rem;
+  font-weight: normal;
+  color: #cbd5e1;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.company-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+  color: #cbd5e1;
+}
+
+.address {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 40px;
+}
+
+.copyright {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  line-height: 1.4;
+}
+
+
+.footer-column h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.partners-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.partners-column li {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.partners-column li:hover {
+  color: #ffffff;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.newsletter-input::placeholder {
+  color: #94a3b8;
+}
+
+.footer-divider {
+  border: 0;
+  border-top: 1px solid #576875;
+  margin: 25px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #cbd5e1;
+  border-radius: 50%;
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.social-icon-circle:hover {
+  border-color: orange;
+}
+
+.footer-bottom-bar {
+  background-color: #7c7eff;
+  height: 60px;
+  width: 100%;
+}
+
+/* @media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 35px;
+    text-align: center;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+} */
