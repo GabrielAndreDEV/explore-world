@@ -55,3 +55,32 @@
     font-weight: 500;
 }
 
+@media (max-width: 1024px) {
+    .cards-section {
+        padding: 40px;
+    }
+
+    .cards-section .cards-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards-section {
+        padding: 30px 15px;
+    }
+
+    .cards-section .cards-wrapper {
+        --card-width: 350px;
+    }
+
+    .cards-section .title {
+        font-size: 1.6rem;
+    }
+
+    .cards-section .cards-wrapper {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

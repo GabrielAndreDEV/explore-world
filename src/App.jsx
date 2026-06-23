@@ -1,10 +1,9 @@
-import "./css/App.css";
-
 import { CardsSection } from "./CardsSection";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
 import { HomeInfo } from "./HomeInfo";
+import { Testimonials } from "./Testimonials";
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
       <Hero />
       <HomeInfo />
       <CardsSection />
+      <Testimonials />
       <Footer />
     </>
   );
