@@ -19,7 +19,7 @@ export const HomeInfo = () => {
                     et inventore facilis vitae consequatur quod omnis voluptates ipsa? Libero inventore dolores necessitatibus omnis voluptate. Sit,
                     officia accusantium consequatur commodi eum deleniti et dolores deserunt accusamus cupiditate animi recusandae assumenda. Similique, eveniet.
                 </p>
-                <button type="button" className='btn-orange font-bold'>Saiba mais</button>
+                <a href='#' type="button" className='button btn-orange font-bold'>Saiba mais</a>
             </div>
 
             <div className='w-100 cards'>
