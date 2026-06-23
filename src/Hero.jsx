@@ -26,7 +26,7 @@ export const Hero = () => {
               <input id="end_date" name="end_date" type="date" />
             </div>
 
-            <button type='submit' className="search-btn btn-orange">Buscar</button>
+            <button type='submit' className="search-btn btn-indigo">Buscar</button>
           </div>
         </form>
       </div>

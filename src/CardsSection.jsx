@@ -28,7 +28,7 @@ export const CardsSection = () => {
                                 <span className='old-price'>{formatBRL(card.oldPrice)}</span>
                             </div>
 
-                            <a href='#'className='button btn-orange font-bold'>Saiba mais</a>
+                            <a href='#'className='button btn-indigo font-bold'>Saiba mais</a>
                         </div>
                     </Card>
                 ))}

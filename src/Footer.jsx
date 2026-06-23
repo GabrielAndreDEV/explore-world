@@ -38,7 +38,7 @@ export const Footer = () => {
                 placeholder="Informe seu E-mail"
                 className="newsletter-input"
               />
-              <button type="submit" className="btn-orange font-bold">Enviar</button>
+              <button type="submit" className="btn-indigo font-bold">Enviar</button>
             </form>
           </div>
 
