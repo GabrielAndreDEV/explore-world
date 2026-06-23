@@ -9,7 +9,7 @@ export const Card = ({ image, title, description, children }) => {
 
       {(title || description || children) && (
         <div className="card-content">
-          {title && <h3 className="card-title">{title}</h3>}
+          {title && <div className="card-title">{title}</div>}
           {description && <p className="card-description">{description}</p>}
           {children}
         </div>

@@ -46,9 +46,9 @@
 
 .home-info .title {
     color: #999FFF;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: bold;
-    font-family: var(--alex);
+    font-family: var(--lobster);
     text-align: left;
     margin-bottom: 0;
     line-height: 1;

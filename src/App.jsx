@@ -1,3 +1,4 @@
+import { CardsSection } from "./CardsSection";
 import "./css/App.css";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <HomeInfo />
+      <CardsSection />
     </>
   );
 }

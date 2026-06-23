@@ -14,9 +14,8 @@
   --sans: system-ui, "Segoe UI", Roboto, sans-serif;
   --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
-  --lobster: "Lobster", sans-serif;
-  --poppins: "Poppins", cursive;
-  --alex: "Alex Brush", cursive;
+  --lobster: "Lobster", cursive;
+  --poppins: "Poppins", sans-serif;
   --max-width: 1920px;
 
   font: 18px/145% var(--poppins);
@@ -102,11 +101,11 @@ code {
 }
 
 .lobster {
-  font-family: "Lobster", sans-serif;
+  font-family: "Lobster", cursive;
 }
 
-.Poppins {
-  font-family: "Lobster", sans-serif;
+.poppins {
+  font-family: "Poppins", sans-serif;
 }
 
 * {
