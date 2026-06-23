@@ -10,7 +10,7 @@ export const HomeInfo = () => {
 
     return (
         <section className="home-info">
-            <div className='w-100 text-left'>
+            <div className='w-100 text-left about'>
                 <h2 className='title'>Próximos Passeios E destinos</h2>
                 <div className='divisor'/>
                 <p>
@@ -23,7 +23,11 @@ export const HomeInfo = () => {
             </div>
 
             <div className='w-100 cards'>
-                {images.map((image, index) => <Card image={image} key={index} />)}
+                {images.map((image, index) =>(
+                    <div className='cards-wrapper'>
+                        <Card image={image} key={index} />
+                    </div>
+                ))}
             </div>
         </section>
     )
