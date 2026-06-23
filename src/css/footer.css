@@ -8,7 +8,7 @@
   text-align: left;
 }
 
-.footer-content {
+.footer-container .footer-content {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -17,11 +17,11 @@
   padding: 0 20px 40px 20px;
 }
 
-.footer-column {
+.footer-container .footer-column {
   flex: 1;
 }
 
-.footer-logo {
+.footer-container .footer-logo {
   font-family: var(--lobster);
   font-size: 2.2rem;
   font-weight: normal;
@@ -30,27 +30,27 @@
   margin-bottom: 25px;
 }
 
-.company-name {
+.footer-container .company-name {
   font-weight: 700;
   font-size: 0.95rem;
   margin-bottom: 5px;
   color: #cbd5e1;
 }
 
-.address {
+.footer-container .address {
   font-size: 0.9rem;
   color: #94a3b8;
   margin-bottom: 40px;
 }
 
-.copyright {
+.footer-container .copyright {
   font-size: 0.85rem;
   color: #94a3b8;
   line-height: 1.4;
 }
 
 
-.footer-column h3 {
+.footer-container .footer-column h3 {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -59,13 +59,13 @@
   color: #cbd5e1;
 }
 
-.partners-column ul {
+.footer-container .partners-column ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.partners-column li {
+.footer-container .partners-column li {
   font-size: 0.85rem;
   color: #94a3b8;
   margin-bottom: 8px;
@@ -73,17 +73,17 @@
   transition: color 0.2s ease;
 }
 
-.partners-column li:hover {
+.footer-container .partners-column li:hover {
   color: #ffffff;
 }
 
-.newsletter-form {
+.footer-container .newsletter-form {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
 }
 
-.newsletter-input {
+.footer-container .newsletter-input {
   flex: 1;
   padding: 10px 15px;
   border: none;
@@ -91,23 +91,23 @@
   font-size: 0.85rem;
 }
 
-.newsletter-input::placeholder {
+.footer-container .newsletter-input::placeholder {
   color: #94a3b8;
 }
 
-.footer-divider {
+.footer-container .footer-divider {
   border: 0;
   border-top: 1px solid #576875;
   margin: 25px 0;
 }
 
-.social-icons {
+.footer-container .social-icons {
   display: flex;
   gap: 15px;
   margin-top: 15px;
 }
 
-.social-icon-circle {
+.footer-container .social-icon-circle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,11 +121,11 @@
   transition: all 0.2s ease;
 }
 
-.social-icon-circle:hover {
+.footer-container .social-icon-circle:hover {
   border-color: orange;
 }
 
-.footer-bottom-bar {
+.footer-container .footer-bottom-bar {
   background-color: #7c7eff;
   height: 60px;
   width: 100%;
