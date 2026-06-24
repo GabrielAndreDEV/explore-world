@@ -10,7 +10,7 @@ export const HomeInfo = () => {
 
   return (
     <section className="home-info">
-      <div className="w-100 text-left about">
+      <div className="w-100 about">
         <h2 className="title">Próximos Passeios E destinos</h2>
         <div className="divisor" />
         <p>
