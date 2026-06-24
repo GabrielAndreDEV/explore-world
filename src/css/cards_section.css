@@ -1,86 +1,86 @@
 .cards-section {
-    width: 100%;
-    background-color: #f5f5f5;
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    background: linear-gradient(135deg, #fce9db 0%, #e1d3fd 100%);
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: linear-gradient(135deg, #fce9db 0%, #e1d3fd 100%);
 }
 
 .cards-section .title {
-    color: #999FFF;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: var(--lobster);
-    text-align: center;
-    margin-bottom: 0;
-    line-height: 1;
-    width: 100%;
+  color: #999fff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--lobster);
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 1;
+  width: 100%;
 }
 
 .cards-section .cards-wrapper {
-    --card-width: 400px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+  --card-width: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .cards-section .cards-wrapper .card {
-    align-self: center;
-    justify-self: center;
+  align-self: center;
+  justify-self: center;
 }
 
 .cards-section .cards-wrapper .price-wrapper {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cards-section .cards-wrapper .prices {
-    display: flex;
-    gap: 0.25rem;
-    align-items: baseline;
+  display: flex;
+  gap: 0.25rem;
+  align-items: baseline;
 }
 
 .cards-section .cards-wrapper .current-price {
-    font-size: 1.1rem;
-    font-weight: bold;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .cards-section .cards-wrapper .old-price {
-    font-size: 0.75rem;
-    text-decoration: line-through;
-    font-weight: 500;
+  font-size: 0.75rem;
+  text-decoration: line-through;
+  font-weight: 500;
 }
 
 @media (max-width: 1024px) {
-    .cards-section {
-        padding: 40px;
-    }
+  .cards-section {
+    padding: 40px;
+  }
 
-    .cards-section .cards-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
-    }
+  .cards-section .cards-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .cards-section {
-        padding: 30px 15px;
-    }
+  .cards-section {
+    padding: 30px 15px;
+  }
 
-    .cards-section .cards-wrapper {
-        --card-width: 350px;
-    }
+  .cards-section .cards-wrapper {
+    --card-width: 350px;
+  }
 
-    .cards-section .title {
-        font-size: 1.6rem;
-    }
+  .cards-section .title {
+    font-size: 1.6rem;
+  }
 
-    .cards-section .cards-wrapper {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
+  .cards-section .cards-wrapper {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

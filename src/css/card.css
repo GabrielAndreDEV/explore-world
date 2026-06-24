@@ -1,10 +1,12 @@
 .card {
   width: var(--card-width, 320px);
-  border-radius:10px;
+  border-radius: 10px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
   display: flex;
   flex-direction: column;
   padding: 10px;

@@ -1,4 +1,4 @@
-import './css/hero.css';
+import "./css/hero.css";
 import hero from "./assets/image-1.jpg";
 
 export const Hero = () => {
@@ -6,10 +6,14 @@ export const Hero = () => {
     <section className="hero">
       <img className="hero-img" src={hero} alt="hero" />
 
-      <div  className="content">
+      <div className="content">
         <h1 className="title">EXPLORE O MUNDO!</h1>
 
-        <form id="search-form" className="search-box-wrapper" onSubmit={(e) => e.preventDefault()}>
+        <form
+          id="search-form"
+          className="search-box-wrapper"
+          onSubmit={(e) => e.preventDefault()}
+        >
           <div className="search-box">
             <div className="field">
               <label for="destiny">Para onde vamos?</label>
@@ -26,7 +30,9 @@ export const Hero = () => {
               <input id="end_date" name="end_date" type="date" />
             </div>
 
-            <button type='submit' className="search-btn btn-indigo">Buscar</button>
+            <button type="submit" className="search-btn btn-indigo">
+              Buscar
+            </button>
           </div>
         </form>
       </div>
