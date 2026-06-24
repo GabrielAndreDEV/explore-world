@@ -1,12 +1,12 @@
 import "./css/card.css";
 
-export const Card = ({ image, title, description, children }) => {
+export const Card = ({ image, title, alt, description, children }) => {
   return (
     <div
       className={`card ${children || title || description ? "card-content" : "card-image-only"}`}
     >
       <div className="card-image-wrapper">
-        <img src={image} alt={title || "card image"} />
+        <img src={image} alt={alt || "card image"} />
       </div>
 
       {(title || description || children) && (
