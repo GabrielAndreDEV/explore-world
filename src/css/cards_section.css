@@ -55,18 +55,19 @@
   font-weight: 500;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .cards-section {
-    padding: 40px;
+    padding: 25px;
   }
 
   .cards-section .cards-wrapper {
+    --card-width: 350px;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .cards-section {
     padding: 30px 15px;
   }
